@@ -5,11 +5,15 @@ public class Portal : MonoBehaviour
 {
     public string sceneToLoad;
 
-    private void OnTriggerEnter(Collider collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
+            Debug.Log("Player would like to reach next leveellll zbogom ljubavi reci cu ti stooo!");
+
+            // placehoder for scene transition
             SceneManager.LoadScene(sceneToLoad);
         }
     }
+
 }

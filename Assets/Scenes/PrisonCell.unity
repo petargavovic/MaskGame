@@ -5761,6 +5761,10 @@ PrefabInstance:
       propertyPath: groundLayer.m_Bits
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 2592430251284842812, guid: 1f656b16c0fb505428f53be7a2288e84, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7783191596699652489, guid: 1f656b16c0fb505428f53be7a2288e84, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.59
@@ -5874,6 +5878,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 3598699840584421464, guid: f1bf5433e40d3ea4e80d3f95bb423d1b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4624158771277652975, guid: f1bf5433e40d3ea4e80d3f95bb423d1b, type: 3}
       propertyPath: m_Name
       value: Portal

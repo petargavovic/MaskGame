@@ -5765,10 +5765,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2659336627644373854, guid: 1f656b16c0fb505428f53be7a2288e84, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 7783191596699652489, guid: 1f656b16c0fb505428f53be7a2288e84, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.59
